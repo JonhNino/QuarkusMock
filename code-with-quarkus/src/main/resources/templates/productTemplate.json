@@ -1,0 +1,11 @@
+{
+  "products": [
+    {#for product in products}
+    {
+      "name": "{product.name}",
+      "price": "{product.price}",
+      "description": "{product.description}"
+    }
+    {/for}
+  ]
+}
